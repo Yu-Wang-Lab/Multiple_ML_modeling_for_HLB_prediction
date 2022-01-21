@@ -2,7 +2,7 @@
 
 Multiple machine learning modeling combined with UHPLC/MS-based untargeted metabolomics for early detection of citrus Huanglongbing (HLB) 
 
-This repository includes four groups of features (metabolites) data acquired from four different detection methods, and each group consists of a dataset of 12 healthy plants and 12 infected plants, along with the machine learning codes for classification.
+This repository includes four groups of features (metabolites) data acquired from different detection methods, and each group consists of a dataset of 12 healthy plants and 12 infected plants, along with the machine learning codes for classification.
 
 The code was tested on Python v3.8.8
 
