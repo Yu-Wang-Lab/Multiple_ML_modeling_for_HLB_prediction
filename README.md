@@ -1,6 +1,6 @@
 # Multiple ML modeling for HLB prediction
 
-Multiple machine learning modeling combined with UHPLC/MS-based untargeted metabolomics for early detection of citrus Huanglongbing (HLB) 
+Nontargeted metabolomics-based multiple machine learning modeling boosts early accurate detection for citrus Huanglongbing 
 
 This repository includes four groups of features (metabolites) data acquired from different detection methods, and each group consists of a dataset of 12 healthy plants and 12 infected plants, along with the machine learning codes for classification.
 
@@ -10,4 +10,6 @@ CN for C18 column–negative ion mode, CP for C18 column–positive ion mode, HN
 
 data_healthy.csv for healthy plants, and data_infected.csv for HLB-infected plants.
 
-For further enquiry please contact zhixin.wang@ufl.cn
+data_test for external test.
+
+For further enquiry please contact zhixin.wang@ufl.edu
