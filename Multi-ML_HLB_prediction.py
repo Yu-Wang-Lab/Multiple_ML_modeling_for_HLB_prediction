@@ -254,20 +254,34 @@ tdv
 
 # Predict label
 pred_lr_l1 = mdl_1.predict(tdv)
-pred_lr_l1
+print(pred_lr_l1)
+pred_proba_lr_l1 = mdl_1.predict_proba(tdv)[:, 1]
+print(pred_proba_lr_l1)
 
 pred_lr_l2 = mdl_2.predict(tdv)
-pred_lr_l2
+print(pred_lr_l2)
+pred_proba_lr_l2 = mdl_2.predict_proba(tdv)[:, 1]
+print(pred_proba_lr_l2)
 
 pred_mlp = mdl_p.predict(tdv)
-pred_mlp
+print(pred_mlp)
+pred_proba_mlp = mdl_p.predict_proba(tdv)[:, 1]
+print(pred_proba_mlp)
 
 pred_rf = mdl_f.predict(tdv)
-pred_rf
+print(pred_rf)
+pred_proba_rf = mdl_f.predict_proba(tdv)[:, 1]
+print(pred_proba_rf)
 
 pred_gbt = mdl_t.predict(tdv)
-pred_gbt
+print(pred_gbt)
+pred_proba_gbt = mdl_t.predict_proba(tdv)[:, 1]
+print(pred_proba_gbt)
 
 pred_svm = mdl_m.predict(tdv)
-pred_svm
+print(pred_svm)
+pred_proba_svm = mdl_m.predict_proba(tdv)[:, 1]
+print(pred_proba_svm)
+
+
 
