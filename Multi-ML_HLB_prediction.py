@@ -180,7 +180,7 @@ def performance_calculation(array1,array2,array3):
 
 def find_thr(pred,label):
     
-    # Find the best threshold where false possitive rate and false negative points cross
+    # Find the best threshold where FPR and FNR points cross
     minn = 100000
     thrr = 0.4
     
