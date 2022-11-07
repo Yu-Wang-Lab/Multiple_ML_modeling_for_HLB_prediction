@@ -196,7 +196,7 @@ def find_thr(pred,label):
         else:
             far = 0 
         if np.abs(frr - far) < minn:
-            minn = np.abs(frr - far)
+            minn = np.abs(frr + far)
             thrr = thr
             
     return thrr
